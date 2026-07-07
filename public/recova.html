@@ -353,6 +353,7 @@ function setPrivacy(t){
 
 $("submitBtn").onclick = async () => {
     console.log("submit 시작");
+    alert("submit 실행됨");
  const text=$("userText").value.trim();
  const nickname=$("userNickname").value.trim() || globalNickname;
  if(!selectedImage&&text==="")return alert("사진 또는 기분 기록 중 하나는 남겨주세요.");
